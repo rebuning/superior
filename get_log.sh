@@ -18,12 +18,10 @@ function get_log() {
   SUPG)
       case "${AMB_LOG}" in
           STG1)
-              PWD_LOG="eyaCR]ng5cr#1kkK_zGM"
-              DEFAULT_URL="https://axlkzc72fp8r.swiftobjectstorage.us-phoenix-1.oci.customer-oci.com/v1/axlkzc72fp8r/rcib-logs-bucket-stg1"
+  # Insert Bucket Cresentials for your logs here...           
               ;;
           PRD1)
-              PWD_LOG="KGFH)E)WcI96Momf#9L0"
-              DEFAULT_URL="https://axlkzc72fp8r.swiftobjectstorage.us-phoenix-1.oci.customer-oci.com/v1/axlkzc72fp8r/rcib-logs-bucket-prd1"
+  # Insert Bucket Cresentials for your logs here...          
               ;;
           *)
               echo "Invalid environment: ${AMB_LOG} for ${PRJ_LOG}"
